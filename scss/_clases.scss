@@ -1,0 +1,114 @@
+.navbar {
+    position: fixed; /* Fija la navbar a la ventana gráfica */
+    background-color: rgba(211, 211, 211, 0.5); /* Color gris claro con 50% de transparencia */
+    z-index: 1000; /* Asegura que la navbar esté encima de la imagen */
+    width: 100%; /* Asegura que la navbar ocupe todo el ancho de la pantalla */
+}
+
+.container-fluid {
+    display: flex;
+    align-items: center; /* Alinea elementos verticalmente al centro */
+    justify-content: left; /* Distribuye espacio entre logo y menú */
+    padding: 15px;
+}
+
+.navbar-logo {
+    height: 90px; /* Ajusta el tamaño de la imagen según sea necesario */
+    margin-right: 150px; /* Espacio entre la imagen y el menú */
+}
+
+.navbar-nav {
+    display: flex;
+    gap: 20px; /* Espacio entre los enlaces del menú */
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #000; /* Color del texto de los enlaces */
+}
+
+.nav-link:hover {
+    text-decoration: underline;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items:end;
+
+}
+
+.img1 {
+    height: 600px;
+    padding-right: 10px;
+
+    z-index: 1; /* Asegura que la imagen esté debajo de la navbar */
+}
+
+.img2 {
+    height: 600px;
+    padding-left: 20px;
+
+    z-index: 1; /* Asegura que la imagen esté debajo de la navbar */
+}
+
+.content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 100px;
+    padding-top: 20px;   
+    padding-bottom: 100px; 
+}
+
+.content2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 200px;
+    padding-top: 70px;    
+}
+
+.text {
+    align-items:center;
+    margin-bottom: 20px;
+    padding-left: 20px;
+    }
+
+ 
+.text2 {
+    align-items:center;
+    margin-bottom: 20px;
+    padding-top: 200px;
+    padding-left: 100px;
+        }    
+
+.boton {
+    margin-bottom: 20px;
+    padding-left: 290px;
+    align-items: center;
+
+}
+
+.btn-primary {
+    background-color: #C8D0EB;
+    border-color: #C8D0EB;
+    color: $colorletra;
+}
+
+.btn-lg {
+    padding: 10px 20px;
+    font-size: 1.25rem;
+    border-radius: 0.3rem;
+}
+
+.action-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 220px;
+}
+
+h1 {
+    text-align: center;
+}
